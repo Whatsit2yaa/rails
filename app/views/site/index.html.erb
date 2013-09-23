@@ -1,0 +1,7 @@
+<h1>IM A PICKLE BUM SARAH</h1>
+<h2>Show me the names baby!</h2>
+<% @users.each do |user| %>
+<p>User Name: <%= user.name %></p><br>
+Created: <%= user.created_at %><br>
+Updated: <%= user.updated_at %>
+<% end %>
